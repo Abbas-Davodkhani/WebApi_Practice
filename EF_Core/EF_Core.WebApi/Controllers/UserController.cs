@@ -1,6 +1,8 @@
 ﻿using EF_Core.WebApi.Data;
 using EF_Core.WebApi.Models;
+using EF_Core.WebApi.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace EF_Core.WebApi.Controllers
@@ -13,13 +15,21 @@ namespace EF_Core.WebApi.Controllers
 
         public UserController() { }
 
+        [HttpGet]
+        public async ValueTask<User> GetUserAsync() =>
+            await db.Users.FirstOrDefaultAsync();
+
         [HttpPost]
-        public async ValueTask<User> PostUserAsync(User user)
+        public async ValueTask<User> PostUserAsync(CreateUserViewModel user)
         {
             try
             {
                 EntityEntry<User> addedUser =
-                    await db.Users.AddAsync(user);
+                    await db.Users.AddAsync(new Models.User
+                    {
+                        Name = user.Name,   
+                        Email = user.Email,
+                    });
 
                 await db.SaveChangesAsync();
 
