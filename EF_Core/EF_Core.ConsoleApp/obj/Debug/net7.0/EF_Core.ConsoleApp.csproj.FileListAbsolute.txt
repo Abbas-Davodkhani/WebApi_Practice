@@ -1,5 +1,0 @@
-C:\Users\mestercomputer\Desktop\EF_Core\EF_Core\EF_Core.ConsoleApp\obj\Debug\net7.0\EF_Core.ConsoleApp.csproj.AssemblyReference.cache
-C:\Users\mestercomputer\Desktop\EF_Core\EF_Core\EF_Core.ConsoleApp\obj\Debug\net7.0\EF_Core.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mestercomputer\Desktop\EF_Core\EF_Core\EF_Core.ConsoleApp\obj\Debug\net7.0\EF_Core.ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\mestercomputer\Desktop\EF_Core\EF_Core\EF_Core.ConsoleApp\obj\Debug\net7.0\EF_Core.ConsoleApp.AssemblyInfo.cs
-C:\Users\mestercomputer\Desktop\EF_Core\EF_Core\EF_Core.ConsoleApp\obj\Debug\net7.0\EF_Core.ConsoleApp.csproj.CoreCompileInputs.cache
