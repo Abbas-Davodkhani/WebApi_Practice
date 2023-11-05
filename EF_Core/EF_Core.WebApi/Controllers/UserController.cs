@@ -11,13 +11,17 @@ namespace EF_Core.WebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        EF_CoreContext db = new EF_CoreContext();   
-
-        public UserController() { }
+        EF_CoreContext db = new EF_CoreContext();
+        private readonly ILogger<UserController> logger;
+        public UserController(ILogger<UserController> logger) { this.logger = logger; }
 
         [HttpGet]
-        public async ValueTask<User> GetUserAsync() =>
-            await db.Users.FirstOrDefaultAsync();
+        public async ValueTask<User> GetUserAsync()
+        {
+            this.logger.LogInformation("test");
+            return await db.Users.FirstOrDefaultAsync();
+        }
+            
 
         [HttpPost]
         public async ValueTask<User> PostUserAsync(CreateUserViewModel user)
@@ -27,7 +31,7 @@ namespace EF_Core.WebApi.Controllers
                 EntityEntry<User> addedUser =
                     await db.Users.AddAsync(new Models.User
                     {
-                        Name = user.Name,   
+                        Name = user.Name,
                         Email = user.Email,
                     });
 
@@ -40,7 +44,7 @@ namespace EF_Core.WebApi.Controllers
 
                 throw new Exception(ex.Message);
             }
-            
+
         }
     }
 }

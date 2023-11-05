@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mestercomputer\\Desktop\\EF_Core\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj": {}
+    "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mestercomputer\\Desktop\\EF_Core\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj": {
+    "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mestercomputer\\Desktop\\EF_Core\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
         "projectName": "EF_Core.WebApi",
-        "projectPath": "C:\\Users\\mestercomputer\\Desktop\\EF_Core\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
-        "packagesPath": "C:\\Users\\mestercomputer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mestercomputer\\Desktop\\EF_Core\\EF_Core\\EF_Core.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
+        "packagesPath": "C:\\Users\\a.davoodkhani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mestercomputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a.davoodkhani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,6 +67,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
