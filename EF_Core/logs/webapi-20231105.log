@@ -1,57 +1,22 @@
-2023-11-05 10:43:57.413 +03:30  INF  Now listening on: https://localhost:7280
-2023-11-05 10:43:57.441 +03:30  INF  Now listening on: http://localhost:5274
-2023-11-05 10:43:57.444 +03:30  INF  Application started. Press Ctrl+C to shut down.
-2023-11-05 10:43:57.445 +03:30  INF  Hosting environment: Development
-2023-11-05 10:43:57.445 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\New folder\WebApi_Practice\EF_Core\EF_Core.WebApi
-2023-11-05 10:43:58.177 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
-2023-11-05 10:43:58.492 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 318.5798ms
-2023-11-05 10:43:58.507 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
-2023-11-05 10:43:58.512 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.2625ms
-2023-11-05 10:43:58.534 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
-2023-11-05 10:43:58.604 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.4660ms
-2023-11-05 10:43:58.670 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
-2023-11-05 10:43:58.825 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.8565ms
-2023-11-05 10:44:03.796 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/api/User - -
-2023-11-05 10:44:03.804 +03:30  INF  Executing endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
-2023-11-05 10:44:03.827 +03:30  INF  Route matched with {action = "GetUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[EF_Core.WebApi.Models.User] GetUserAsync() on controller EF_Core.WebApi.Controllers.UserController (EF_Core.WebApi).
-2023-11-05 10:44:03.832 +03:30  INF  Executed action EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi) in 1.4814ms
-2023-11-05 10:44:03.833 +03:30  INF  Executed endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
-2023-11-05 10:44:03.837 +03:30  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'EF_Core.WebApi.Controllers.UserController'.
-   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
-   at lambda_method9(Closure, IServiceProvider, Object[])
-   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
---- End of stack trace from previous location ---
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
-   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
-   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
-   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
-   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
-   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
-   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
-
-2023-11-05 10:44:03.862 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/api/User - - - 500 - application/json;+charset=utf-8 66.0310ms
-2023-11-05 10:45:01.795 +03:30  INF  Now listening on: https://localhost:7280
-2023-11-05 10:45:01.815 +03:30  INF  Now listening on: http://localhost:5274
-2023-11-05 10:45:01.816 +03:30  INF  Application started. Press Ctrl+C to shut down.
-2023-11-05 10:45:01.817 +03:30  INF  Hosting environment: Development
-2023-11-05 10:45:01.817 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\New folder\WebApi_Practice\EF_Core\EF_Core.WebApi
-2023-11-05 10:45:02.632 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
-2023-11-05 10:45:02.895 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
-2023-11-05 10:45:02.895 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 266.0402ms
-2023-11-05 10:45:02.899 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.6690ms
-2023-11-05 10:45:02.933 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
-2023-11-05 10:45:02.983 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.7765ms
-2023-11-05 10:45:03.043 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
-2023-11-05 10:45:03.179 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.8679ms
-2023-11-05 10:45:06.871 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/api/User - -
-2023-11-05 10:45:06.878 +03:30  INF  Executing endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
-2023-11-05 10:45:06.899 +03:30  INF  Route matched with {action = "GetUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[EF_Core.WebApi.Models.User] GetUserAsync() on controller EF_Core.WebApi.Controllers.UserController (EF_Core.WebApi).
-2023-11-05 10:45:26.077 +03:30  INF  Executed action EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi) in 19174.7055ms
-2023-11-05 10:45:26.086 +03:30  INF  Executed endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
-2023-11-05 10:45:26.095 +03:30  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+2023-11-05 11:04:23.758 +03:30  INF  Now listening on: https://localhost:7280
+2023-11-05 11:04:23.792 +03:30  INF  Now listening on: http://localhost:5274
+2023-11-05 11:04:23.794 +03:30  INF  Application started. Press Ctrl+C to shut down.
+2023-11-05 11:04:23.795 +03:30  INF  Hosting environment: Development
+2023-11-05 11:04:23.796 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\New folder\WebApi_Practice\EF_Core\EF_Core.WebApi
+2023-11-05 11:04:24.682 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
+2023-11-05 11:04:24.979 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 301.1732ms
+2023-11-05 11:04:24.992 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 11:04:25.004 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 11.4878ms
+2023-11-05 11:04:25.026 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
+2023-11-05 11:04:25.103 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.9080ms
+2023-11-05 11:04:25.161 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
+2023-11-05 11:04:25.324 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 163.2548ms
+2023-11-05 11:04:30.317 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/api/User - -
+2023-11-05 11:04:30.324 +03:30  INF  Executing endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
+2023-11-05 11:04:30.348 +03:30  INF  Route matched with {action = "GetUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[EF_Core.WebApi.Models.User] GetUserAsync() on controller EF_Core.WebApi.Controllers.UserController (EF_Core.WebApi).
+2023-11-05 11:04:49.906 +03:30  INF  Executed action EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi) in 19552.1296ms
+2023-11-05 11:04:49.915 +03:30  INF  Executed endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
+2023-11-05 11:04:49.926 +03:30  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
    at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
@@ -99,4 +64,4 @@
 ClientConnectionId:00000000-0000-0000-0000-000000000000
 Error Number:-1,State:0,Class:20
 
-2023-11-05 10:45:26.121 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/api/User - - - 500 - application/json;+charset=utf-8 19250.0456ms
+2023-11-05 11:04:49.973 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/api/User - - - 500 - application/json;+charset=utf-8 19655.9434ms

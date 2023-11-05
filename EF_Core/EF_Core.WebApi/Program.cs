@@ -4,8 +4,15 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // config in appsettings.jsom
+//var logger = new LoggerConfiguration()
+//    .ReadFrom.Configuration(builder.Configuration)
+//    .Enrich.FromLogContext()
+//    .CreateLogger();
+
 var logger = new LoggerConfiguration()
-    .ReadFrom.Configuration(builder.Configuration)
+    .ReadFrom.Configuration(new ConfigurationBuilder()
+    .AddJsonFile("serilog-config.json")
+    .Build())
     .Enrich.FromLogContext()
     .CreateLogger();
 
