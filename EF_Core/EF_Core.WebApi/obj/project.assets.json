@@ -3856,11 +3856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\a.davoodkhani\\Desktop\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
       "projectName": "EF_Core.WebApi",
-      "projectPath": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
+      "projectPath": "C:\\Users\\a.davoodkhani\\Desktop\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
       "packagesPath": "C:\\Users\\a.davoodkhani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\a.davoodkhani\\Desktop\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3874,7 +3874,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3949,7 +3948,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

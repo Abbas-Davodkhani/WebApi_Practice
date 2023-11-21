@@ -18,7 +18,7 @@ namespace EF_Core.WebApi.Data
         public DbSet<UserRole> UserRoles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-OILJRSE\\SQLEXPRESS;Database=EF_CoreDb;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=MINICASE-1-CORE\\SA;Database=EF_CoreDb;Trusted_Connection=True;TrustServerCertificate=True;");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

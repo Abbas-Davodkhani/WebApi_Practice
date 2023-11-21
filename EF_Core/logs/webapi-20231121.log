@@ -1,0 +1,72 @@
+2023-11-21 16:15:22.749 +03:30  INF  Now listening on: https://localhost:7280
+2023-11-21 16:15:22.851 +03:30  INF  Now listening on: http://localhost:5274
+2023-11-21 16:15:22.857 +03:30  INF  Application started. Press Ctrl+C to shut down.
+2023-11-21 16:15:22.858 +03:30  INF  Hosting environment: Development
+2023-11-21 16:15:22.860 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi
+2023-11-21 16:15:23.798 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger - -
+2023-11-21 16:15:23.966 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger - - - 301 0 - 170.9585ms
+2023-11-21 16:15:23.984 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
+2023-11-21 16:15:24.305 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 321.0943ms
+2023-11-21 16:15:24.313 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/swagger-ui.css - -
+2023-11-21 16:15:24.313 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/swagger-ui-bundle.js - -
+2023-11-21 16:15:24.313 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/swagger-ui-standalone-preset.js - -
+2023-11-21 16:15:24.313 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
+2023-11-21 16:15:24.367 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 53.9352ms
+2023-11-21 16:15:24.369 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
+2023-11-21 16:15:24.423 +03:30  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-21 16:15:24.423 +03:30  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-21 16:15:24.430 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 116.4033ms
+2023-11-21 16:15:24.436 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/swagger-ui.css - - - 200 144929 text/css 122.8285ms
+2023-11-21 16:15:24.455 +03:30  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-21 16:15:24.457 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 143.8865ms
+2023-11-21 16:15:24.492 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.3120ms
+2023-11-21 16:15:24.652 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
+2023-11-21 16:15:24.689 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/favicon-32x32.png - -
+2023-11-21 16:15:24.691 +03:30  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-21 16:15:24.693 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/favicon-32x32.png - - - 200 628 image/png 4.1856ms
+2023-11-21 16:15:24.801 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.8928ms
+2023-11-21 16:18:18.463 +03:30  INF  Now listening on: https://localhost:7280
+2023-11-21 16:18:18.495 +03:30  INF  Now listening on: http://localhost:5274
+2023-11-21 16:18:18.497 +03:30  INF  Application started. Press Ctrl+C to shut down.
+2023-11-21 16:18:18.498 +03:30  INF  Hosting environment: Development
+2023-11-21 16:18:18.499 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi
+2023-11-21 16:18:19.514 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
+2023-11-21 16:18:20.443 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
+2023-11-21 16:18:20.448 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 939.4058ms
+2023-11-21 16:18:20.470 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 26.8415ms
+2023-11-21 16:18:20.655 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
+2023-11-21 16:18:20.830 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 175.1289ms
+2023-11-21 16:18:20.980 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
+2023-11-21 16:18:21.156 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.2974ms
+2023-11-21 16:18:29.285 +03:30  INF  Request starting HTTP/2 POST https://localhost:7280/api/User application/json 51
+2023-11-21 16:18:29.294 +03:30  INF  Executing endpoint 'EF_Core.WebApi.Controllers.UserController.PostUserAsync (EF_Core.WebApi)'
+2023-11-21 16:18:29.358 +03:30  INF  Route matched with {action = "PostUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[EF_Core.WebApi.Models.User] PostUserAsync(EF_Core.WebApi.ViewModels.CreateUserViewModel) on controller EF_Core.WebApi.Controllers.UserController (EF_Core.WebApi).
+2023-11-21 16:18:35.897 +03:30  INF  Executing action method EF_Core.WebApi.Controllers.UserController.PostUserAsync (EF_Core.WebApi) - Validation state: "Valid"
+2023-11-21 16:18:36.106 +03:30  INF  Executed action method EF_Core.WebApi.Controllers.UserController.PostUserAsync (EF_Core.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 202.2323ms.
+2023-11-21 16:18:36.116 +03:30  INF  Executing ObjectResult, writing value of type 'EF_Core.WebApi.Models.User'.
+2023-11-21 16:18:36.126 +03:30  INF  Executed action EF_Core.WebApi.Controllers.UserController.PostUserAsync (EF_Core.WebApi) in 6760.7321ms
+2023-11-21 16:18:36.129 +03:30  INF  Executed endpoint 'EF_Core.WebApi.Controllers.UserController.PostUserAsync (EF_Core.WebApi)'
+2023-11-21 16:18:36.131 +03:30  INF  Request finished HTTP/2 POST https://localhost:7280/api/User application/json 51 - 200 - application/json;+charset=utf-8 6846.6567ms
+2023-11-21 16:19:27.203 +03:30  INF  Now listening on: https://localhost:7280
+2023-11-21 16:19:27.233 +03:30  INF  Now listening on: http://localhost:5274
+2023-11-21 16:19:27.236 +03:30  INF  Application started. Press Ctrl+C to shut down.
+2023-11-21 16:19:27.237 +03:30  INF  Hosting environment: Development
+2023-11-21 16:19:27.238 +03:30  INF  Content root path: C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi
+2023-11-21 16:19:27.968 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/index.html - -
+2023-11-21 16:19:28.230 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - -
+2023-11-21 16:19:28.235 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/index.html - - - 200 - text/html;charset=utf-8 270.1565ms
+2023-11-21 16:19:28.238 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_framework/aspnetcore-browser-refresh.js - - - 200 12360 application/javascript;+charset=utf-8 7.2200ms
+2023-11-21 16:19:28.264 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/_vs/browserLink - -
+2023-11-21 16:19:28.291 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.5366ms
+2023-11-21 16:19:28.368 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - -
+2023-11-21 16:19:28.508 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.4602ms
+2023-11-21 16:19:36.117 +03:30  INF  Request starting HTTP/2 GET https://localhost:7280/api/User - -
+2023-11-21 16:19:36.123 +03:30  INF  Executing endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
+2023-11-21 16:19:36.144 +03:30  INF  Route matched with {action = "GetUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.ValueTask`1[EF_Core.WebApi.Models.User] GetUserAsync() on controller EF_Core.WebApi.Controllers.UserController (EF_Core.WebApi).
+2023-11-21 16:19:43.578 +03:30  INF  Executing action method EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi) - Validation state: "Valid"
+2023-11-21 16:19:43.581 +03:30  INF  test
+2023-11-21 16:19:43.901 +03:30  INF  Executed action method EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 316.9531ms.
+2023-11-21 16:19:43.911 +03:30  INF  Executing ObjectResult, writing value of type 'EF_Core.WebApi.Models.User'.
+2023-11-21 16:19:43.924 +03:30  INF  Executed action EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi) in 7770.8181ms
+2023-11-21 16:19:43.928 +03:30  INF  Executed endpoint 'EF_Core.WebApi.Controllers.UserController.GetUserAsync (EF_Core.WebApi)'
+2023-11-21 16:19:43.929 +03:30  INF  Request finished HTTP/2 GET https://localhost:7280/api/User - - - 200 - application/json;+charset=utf-8 7811.9620ms

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aoEuCsVXAcYdqSBcm2JgKs1vjLkpEtEOCp2cT3mZ4ger/PfgCikfkpFfoMSw7y6BHEeUz2BJG6M3Y4N2VqQBhw==",
+  "dgSpecHash": "eQ1a+hkK2IE6khUi4WlxNug/uEAulC42mNRn7xJ7jebk1HY+O3iEycIxO9uBHATAIFSG6DnVSYdHDd98wIREAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.davoodkhani\\Desktop\\New folder\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\a.davoodkhani\\Desktop\\WebApi_Practice\\EF_Core\\EF_Core.WebApi\\EF_Core.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.davoodkhani\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\a.davoodkhani\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿using EF_Core.WebApi.Data;
+﻿using EF_Core.WebApi.Common;
+using EF_Core.WebApi.Data;
 using EF_Core.WebApi.Models;
 using EF_Core.WebApi.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -26,6 +27,7 @@ namespace EF_Core.WebApi.Controllers
         [HttpPost]
         public async ValueTask<User> PostUserAsync(CreateUserViewModel user)
         {
+            ApiResponse<User> apiResponse = new ApiResponse<User>();
             try
             {
                 EntityEntry<User> addedUser =
@@ -36,6 +38,9 @@ namespace EF_Core.WebApi.Controllers
                     });
 
                 await db.SaveChangesAsync();
+
+                apiResponse.Data = addedUser.Entity;
+                apiResponse.Success = true;
 
                 return addedUser.Entity;
             }
