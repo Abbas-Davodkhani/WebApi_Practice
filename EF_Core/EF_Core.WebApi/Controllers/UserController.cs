@@ -1,6 +1,7 @@
 ﻿using EF_Core.WebApi.Common;
 using EF_Core.WebApi.Data;
 using EF_Core.WebApi.Models;
+using EF_Core.WebApi.Utilities;
 using EF_Core.WebApi.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,7 @@ namespace EF_Core.WebApi.Controllers
             
 
         [HttpPost]
-        public async ValueTask<User> PostUserAsync(CreateUserViewModel user)
+        public async ValueTask<ApiResult<User>> PostUserAsync(CreateUserViewModel user)
         {
             ApiResponse<User> apiResponse = new ApiResponse<User>();
             try

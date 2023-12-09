@@ -246,3 +246,4 @@ C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi\obj\Debug\
 C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi\obj\Debug\net7.0\EF_Core.WebApi.pdb
 C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi\obj\Debug\net7.0\EF_Core.WebApi.genruntimeconfig.cache
 C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi\obj\Debug\net7.0\ref\EF_Core.WebApi.dll
+C:\Users\a.davoodkhani\Desktop\WebApi_Practice\EF_Core\EF_Core.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
